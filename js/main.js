@@ -157,7 +157,7 @@
       var apiId = $("#deyer").val();
 
       $.get(
-        "http://localhost/CHEWEEK_DEV_GIT/api_mekan_4_cheweek_resource/api/" + apiId + ".json",
+        "http://localhost:3000/api_mekan_4_cheweek_resource/api/" + apiId + ".json",
         function (res) {
           //console.log(res)
 
@@ -223,7 +223,7 @@
                   "table":${tableName}
                 }
               }`,
-          url: "https://test.sourcedagile.com/api/post/callp/22110211563002523322",
+          url: "https://apimekan.com/cheweek_dev/api/post/callp/22110211563002523322",
           dataType: "json",
           success: function (response) {
                 table.append(`
